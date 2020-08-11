@@ -11,19 +11,21 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: 0;
+    
      
 }
 
 #page2{
-    background-image: url("https://www.nasaspaceflight.com/wp-content/uploads/2018/10/2018-10-22-13_27_15-Window.jpg");
-    background-size: auto;
+    background-image: url("https://cms.qz.com/wp-content/uploads/2018/09/SpaceX-Elon-Musk-Falcon-9-rocket-launch-Telesat-Telstar-16.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
+    background-size: 100vw;
     background-repeat: no-repeat;
+    background-position: bottom;
     height: 100%;
     width: 100%;
-   
+    padding-top: 80%;
+
     
-    z-index: 0;
+    
 }
 
 
@@ -75,4 +77,23 @@
     background-color: transparent ;
     padding: 20px 50px;
     margin-top: 35px;
+}
+
+#launchDiv{
+   
+ color: white;
+ padding-bottom: 150px;
+ padding-left: 700px;
+ 
+}
+
+#launch{
+    color: white;
+    font-size: 15px;
+}
+
+#starlink{
+    color:white;
+    font-size: 42px;
+    padding-top: 15px;
 }
